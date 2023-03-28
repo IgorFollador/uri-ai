@@ -5,10 +5,10 @@ recog = sr.Recognizer()
 
 def SpeakText(command):
     out = pyttsx3.init()
-    if (command != 'desligar'):
+    if (command != 'turn off'):
         out.say(command)
     else:
-        out.say('Ok! Estou desligando...')
+        out.say('Ok! Turning off...')
     out.runAndWait()
 
 text = ''
