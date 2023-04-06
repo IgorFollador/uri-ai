@@ -21,7 +21,6 @@ sentences = [
     'Quem criou a linguagem Lua?', 'O criador foi Roberto Ierusalimschy',
     'Quem criou a linguagem Ruby?', 'O criador foi Yukihiro Matsumoto',
     'Quem criou a linguagem Javascript?', 'O criador foi Brendan Eich',
-
 ]
 
 trainer.train(sentences)
